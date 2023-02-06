@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nigsterious_gear:magicitem"
+    },
+    {
+      "item": "nigsterious_gear:magicitem"
+    },
+    {
+      "item": "nigsterious_gear:magicitem"
+    }
+  ],
+  "result": {
+    "item": "nigsterious_gear:business",
+    "count": 1
+  }
+}

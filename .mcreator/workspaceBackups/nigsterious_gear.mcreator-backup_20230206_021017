@@ -1,0 +1,137 @@
+{
+  "mod_elements": [
+    {
+      "name": "Business",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "business"
+    },
+    {
+      "name": "Handshake",
+      "type": "potioneffect",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handshake"
+    },
+    {
+      "name": "Magicitem",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicitem"
+    },
+    {
+      "name": "Magic",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic"
+    },
+    {
+      "name": "Handshaked",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handshaked"
+    },
+    {
+      "name": "Handshaking",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handshaking",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Handshaker",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handshaker"
+    },
+    {
+      "name": "Shake",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shake"
+    },
+    {
+      "name": "HandshakerRightclicked",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handshaker_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "business",
+      "files": [
+        "the-business"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "effect.nigsterious_gear.handshake": "handshaking",
+      "advancements.handshaked.title": "Handshaked",
+      "item.nigsterious_gear.business": "Business",
+      "item.nigsterious_gear.business.desc": "Lets get down to Business",
+      "item.nigsterious_gear.handshaker": "Handshaker",
+      "advancements.handshaked.descr": "yo ass did the handshake with someone",
+      "subtitles.business": "",
+      "item.nigsterious_gear.magicitem": "Magic thing"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "nigsterious_gear",
+    "modName": "nigsterious gear",
+    "version": "1.0.0",
+    "author": "peppe, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.nigsteriousgear",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
