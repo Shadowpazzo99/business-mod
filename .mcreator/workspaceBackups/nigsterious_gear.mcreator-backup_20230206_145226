@@ -9,14 +9,6 @@
       "registry_name": "business"
     },
     {
-      "name": "Handshake",
-      "type": "potioneffect",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "handshake"
-    },
-    {
       "name": "Magicitem",
       "type": "item",
       "sortid": 4,
@@ -41,17 +33,37 @@
       "registry_name": "handshaked"
     },
     {
-      "name": "Handshaking",
-      "type": "procedure",
-      "sortid": 3,
+      "name": "Handshaker",
+      "type": "item",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "handshaking",
+      "registry_name": "handshaker"
+    },
+    {
+      "name": "Shake",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shake"
+    },
+    {
+      "name": "HandshakerRightclicked",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handshaker_rightclicked",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -70,10 +82,10 @@
   ],
   "language_map": {
     "en_us": {
-      "effect.nigsterious_gear.handshake": "handshaking",
       "advancements.handshaked.title": "Handshaked",
-      "item.nigsterious_gear.business": "Business",
-      "item.nigsterious_gear.business.desc": "Lets get down to Business",
+      "item.nigsterious_gear.business": "Music Disc",
+      "item.nigsterious_gear.business.desc": "Business",
+      "item.nigsterious_gear.handshaker": "Handshaker",
       "advancements.handshaked.descr": "yo ass did the handshake with someone",
       "subtitles.business": "",
       "item.nigsterious_gear.magicitem": "Magic thing"
@@ -85,10 +97,10 @@
   },
   "workspaceSettings": {
     "modid": "nigsterious_gear",
-    "modName": "nigsterious gear",
+    "modName": "Business",
     "version": "1.0.0",
-    "author": "peppe, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "description": "lets get down lets get down to business",
+    "author": "ShadowPazzo",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
