@@ -1,0 +1,43 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "the_bow_in_question",
+    "customModelName": "Normal",
+    "name": "Ferocious Blaster",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": "CUSTOM:Magicitem"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.splash_potion.throw"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 5.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 6.0,
+    "bulletKnockback": 4,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Magicitem"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "BongProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "BongProjectileHitsBlock"
+    }
+  }
+}

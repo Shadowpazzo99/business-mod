@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "business:cumxi_copper_block"
+    }
+  ],
+  "result": {
+    "item": "business:cumxi_copper_ingot",
+    "count": 9
+  }
+}

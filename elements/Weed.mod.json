@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "bongin",
+    "icon": "image.png",
+    "color": {
+      "value": -16711936,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "BongProjectileHitsBlock"
+    }
+  }
+}

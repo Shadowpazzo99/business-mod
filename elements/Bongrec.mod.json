@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "Blocks.LEAVES"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:Magicitem"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:Sex"
+    },
+    "name": "bongrec",
+    "namespace": "mod"
+  }
+}

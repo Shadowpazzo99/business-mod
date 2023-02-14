@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "business:magicitem"
+    },
+    {
+      "item": "business:magicitem"
+    },
+    {
+      "item": "business:magicitem"
+    }
+  ],
+  "result": {
+    "item": "business:business",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "business:cumxi_copper_ingot"
+    },
+    "2": {
+      "item": "business:cumxi_copper_ingot"
+    },
+    "3": {
+      "item": "business:cumxi_copper_ingot"
+    },
+    "5": {
+      "item": "business:cumxi_copper_ingot"
+    }
+  },
+  "result": {
+    "item": "business:cumxi_copper_armor_boots",
+    "count": 1
+  }
+}

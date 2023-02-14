@@ -1,0 +1,11 @@
+{
+  "business": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "business:the-business",
+        "stream": true
+      }
+    ]
+  }
+}

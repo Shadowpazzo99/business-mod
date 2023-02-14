@@ -2,6 +2,7 @@ Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
 Arguments: '--in-jar, C:\Users\peppe\MCreatorWorkspaces\nigsterious_gear\build\libs\modid-1.0.jar, --out-jar, C:\Users\peppe\MCreatorWorkspaces\nigsterious_gear\build\reobfJar\output.jar, --srg-in, C:\Users\peppe\MCreatorWorkspaces\nigsterious_gear\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\peppe\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
+ - C:\Users\peppe\MCreatorWorkspaces\nigsterious_gear\lib\mcreator_link.jar
  - C:\Users\peppe\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.1.7_mapped_official_1.19.2\forge-1.19.2-43.1.7_mapped_official_1.19.2-recomp.jar
  - C:\Users\peppe\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.19.2\client-extra.jar
  - C:\Users\peppe\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.19.2-43.1.7\ea7515b196e4a88ba3c30c444f8c69f0294f4972\fmlloader-1.19.2-43.1.7.jar
@@ -120,14 +121,14 @@ Loading mappings... 40%
 Loading mappings... 50%
 0 packages, 6859 classes, 30693 fields, 57911 methods
 Remapping final jar
-Remapping jar...  2%
-Remapping jar... 11%
+Remapping jar...  1%
+Remapping jar... 10%
 Remapping jar... 20%
-Remapping jar... 31%
+Remapping jar... 30%
 Remapping jar... 40%
-Remapping jar... 51%
+Remapping jar... 50%
 Remapping jar... 60%
-Remapping jar... 71%
+Remapping jar... 70%
 Remapping jar... 80%
-Remapping jar... 91%
+Remapping jar... 90%
 Remapping jar... 100%

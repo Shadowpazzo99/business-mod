@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "business:magicitem"
+    },
+    {
+      "item": "business:cumxi_copper_ingot"
+    },
+    {
+      "item": "business:magicitem"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "business:shaker"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "business:cumsteelium_ingot",
+    "count": 3
+  }
+}

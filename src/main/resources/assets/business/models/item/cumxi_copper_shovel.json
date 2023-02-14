@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "business:items/cumxicopper_shovel"
+  }
+}

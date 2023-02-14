@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "business:magicitem"
+    },
+    "1": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "2": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "4": {
+      "item": "business:cumxi_copper_ingot"
+    },
+    "5": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "6": {
+      "item": "business:cumxi_copper_ingot"
+    },
+    "8": {
+      "item": "business:magicitem"
+    }
+  },
+  "result": {
+    "item": "business:superhandshaker",
+    "count": 1
+  }
+}

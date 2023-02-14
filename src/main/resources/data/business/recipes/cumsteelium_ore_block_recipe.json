@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "1": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "2": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "3": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "4": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "5": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "6": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "7": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "8": {
+      "item": "business:cumsteelium_ingot"
+    }
+  },
+  "result": {
+    "item": "business:cumsteelium_block",
+    "count": 1
+  }
+}
