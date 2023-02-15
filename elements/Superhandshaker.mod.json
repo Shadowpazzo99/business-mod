@@ -16,7 +16,7 @@
     "harvestLevel": 1,
     "efficiency": 6.5,
     "attackSpeed": 1.0,
-    "enchantability": 2,
+    "enchantability": 15,
     "damageVsEntity": 4.0,
     "usageCount": 100,
     "blocksAffected": [],
@@ -31,6 +31,9 @@
     "damageOnCrafting": false,
     "onRightClickedInAir": {
       "name": "HandershakererRightclickedalt"
+    },
+    "onItemInInventoryTick": {
+      "name": "Cumdowntick"
     }
   }
 }

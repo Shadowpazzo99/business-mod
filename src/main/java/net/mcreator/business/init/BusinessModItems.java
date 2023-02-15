@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.business.item.SuperhandshakerItem;
 import net.mcreator.business.item.ShakerItem;
+import net.mcreator.business.item.RaperItem;
 import net.mcreator.business.item.MagicitemItem;
 import net.mcreator.business.item.CumxiCopperSwordItem;
 import net.mcreator.business.item.CumxiCopperShovelItem;
@@ -27,6 +28,9 @@ import net.mcreator.business.item.CumsteeliumIngotItem;
 import net.mcreator.business.item.CumItem;
 import net.mcreator.business.item.BusinessItem;
 import net.mcreator.business.item.BongItem;
+import net.mcreator.business.item.BloodItem;
+import net.mcreator.business.item.BloodAlloyItem;
+import net.mcreator.business.item.ActualshitItem;
 import net.mcreator.business.BusinessMod;
 
 public class BusinessModItems {
@@ -54,6 +58,10 @@ public class BusinessModItems {
 	public static final RegistryObject<Item> CUMSTEELIUM_BLOCK = block(BusinessModBlocks.CUMSTEELIUM_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> CUM_BUCKET = REGISTRY.register("cum_bucket", () -> new CumItem());
 	public static final RegistryObject<Item> SUPERHANDSHAKER = REGISTRY.register("superhandshaker", () -> new SuperhandshakerItem());
+	public static final RegistryObject<Item> RAPER = REGISTRY.register("raper", () -> new RaperItem());
+	public static final RegistryObject<Item> BLOOD_ALLOY = REGISTRY.register("blood_alloy", () -> new BloodAlloyItem());
+	public static final RegistryObject<Item> BLOOD = REGISTRY.register("blood", () -> new BloodItem());
+	public static final RegistryObject<Item> ACTUALSHIT = REGISTRY.register("actualshit", () -> new ActualshitItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

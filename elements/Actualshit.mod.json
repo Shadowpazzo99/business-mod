@@ -1,0 +1,47 @@
+{
+  "_fv": 34,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "glass_shard",
+    "customModelName": "Normal",
+    "name": "Glass shard",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 16,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 1,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 2.5,
+    "specialInfo": [
+      "Stab any entity for a 10% chance to get blood from them"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onEntityHitWith": {
+      "name": "Glassbleed"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

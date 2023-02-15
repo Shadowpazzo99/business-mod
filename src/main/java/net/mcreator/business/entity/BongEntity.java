@@ -88,7 +88,7 @@ public class BongEntity extends AbstractArrow implements ItemSupplier {
 		BongEntity entityarrow = new BongEntity(BusinessModEntities.BONG.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
-		entityarrow.setCritArrow(true);
+		entityarrow.setCritArrow(false);
 		entityarrow.setBaseDamage(damage);
 		entityarrow.setKnockback(knockback);
 		entityarrow.setSecondsOnFire(100);
@@ -104,11 +104,11 @@ public class BongEntity extends AbstractArrow implements ItemSupplier {
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
-		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 2f * 2, 12.0F);
+		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 0.8f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(6);
-		entityarrow.setKnockback(4);
-		entityarrow.setCritArrow(true);
+		entityarrow.setBaseDamage(3.9999999999999996);
+		entityarrow.setKnockback(0);
+		entityarrow.setCritArrow(false);
 		entityarrow.setSecondsOnFire(100);
 		entity.level.addFreshEntity(entityarrow);
 		entity.level.playSound(null, entity.getX(), entity.getY(), entity.getZ(),

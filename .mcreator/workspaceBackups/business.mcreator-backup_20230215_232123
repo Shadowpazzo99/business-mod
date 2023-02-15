@@ -1,0 +1,679 @@
+{
+  "mod_elements": [
+    {
+      "name": "Business",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "business"
+    },
+    {
+      "name": "Magicitem",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicitem",
+      "path": "~/Materials"
+    },
+    {
+      "name": "Magic",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic",
+      "path": "~/Materials"
+    },
+    {
+      "name": "Handshaked",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handshaked",
+      "path": "~/Achievement"
+    },
+    {
+      "name": "Shake",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shake",
+      "path": "~/Toolweaps"
+    },
+    {
+      "name": "HandshakerRightclicked",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handshaker_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Shaker",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shaker",
+      "path": "~/Toolweaps"
+    },
+    {
+      "name": "BongProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bong_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Bong",
+      "type": "rangeditem",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bong",
+      "path": "~/Toolweaps"
+    },
+    {
+      "name": "Sex",
+      "type": "potion",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sex"
+    },
+    {
+      "name": "Weed",
+      "type": "potioneffect",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed",
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Bongrec",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bongrec"
+    },
+    {
+      "name": "CumxiCopperIngot",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_ingot",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperBlock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_block",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_ore_block_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_block_ore_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperOreSmelting",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_ore_smelting",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperPickaxe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_pickaxe",
+      "path": "~/Toolweaps"
+    },
+    {
+      "name": "CumxiCopperAxe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_axe",
+      "path": "~/Toolweaps"
+    },
+    {
+      "name": "CumxiCopperSword",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_sword",
+      "path": "~/Toolweaps"
+    },
+    {
+      "name": "CumxiCopperShovel",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_shovel",
+      "path": "~/Toolweaps"
+    },
+    {
+      "name": "CumxiCopperHoe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_hoe",
+      "path": "~/Toolweaps"
+    },
+    {
+      "name": "CumxiCopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_pickaxe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperAxeRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_axe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_sword_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperShovelRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_shovel_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperHoeRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_hoe_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperArmor",
+      "type": "armor",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_armor_helmet_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_armor_body_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_armor_leggings_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumxiCopperArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumxi_copper_armor_boots_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumsteeliumIngot",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumsteelium_ingot",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumsteeliumBlock",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumsteelium_block",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumsteeliumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumsteelium_ore_block_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumsteeliumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumsteelium_block_ore_recipe",
+      "path": "~/Materials"
+    },
+    {
+      "name": "CumsteeliumOreSmelting",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumsteelium_ore_smelting",
+      "path": "~/Materials"
+    },
+    {
+      "name": "Bongbowrec",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bongbowrec",
+      "path": "~/Materials"
+    },
+    {
+      "name": "Cum",
+      "type": "fluid",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cum",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "HandershakererRightclickedalt",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handershakerer_rightclickedalt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Cumdowntick",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumdowntick",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Superhandshaker",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superhandshaker",
+      "path": "~/Toolweaps"
+    },
+    {
+      "name": "Superhandshakerrec",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superhandshakerrec",
+      "path": "~/Materials"
+    },
+    {
+      "name": "Cumrec",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumrec",
+      "path": "~/Materials"
+    },
+    {
+      "name": "Cumbuckerc",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumbuckerc",
+      "path": "~/Materials"
+    },
+    {
+      "name": "Gettingdowntobusiness",
+      "type": "achievement",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gettingdowntobusiness",
+      "path": "~/Achievement"
+    },
+    {
+      "name": "Shakesenddebuff",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shakesenddebuff",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Thundowntick",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thundowntick",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Raper",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raper",
+      "path": "~/Toolweaps"
+    },
+    {
+      "name": "BloodAlloy",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_alloy",
+      "path": "~/Materials"
+    },
+    {
+      "name": "Blood",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "path": "~/Materials"
+    },
+    {
+      "name": "BloodAlloyrec",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_alloyrec",
+      "path": "~/Materials"
+    },
+    {
+      "name": "Bloodbusiness",
+      "type": "achievement",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbusiness",
+      "path": "~/Achievement"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "business",
+      "files": [
+        "the-business"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "advancements.bloodbusiness.descr": "It seems your business has reached into the self harm category",
+      "block.nigsterious_gear.cumxi_copper_block": "Block of CumxiCopper",
+      "item.business.business.desc": "Business",
+      "item.business.cumxi_copper_sword": "CumxiCopper Sword",
+      "item.business.blood_alloy": "Blood Alloy",
+      "item.nigsterious_gear.cumxi_copper_hoe": "CumxiCopper Hoe",
+      "item.nigsterious_gear.cumxi_copper_armor_leggings": "CumxiCopper Leggings",
+      "item.nigsterious_gear.cumxi_copper_ingot": "CumxiCopper",
+      "item.minecraft.potion.effect.sex": "Outcast\u0027s bong",
+      "fluid.nigsterious_gear.cum": "Cum",
+      "item.business.cumxi_copper_armor_chestplate": "CumxiCopper Chestplate",
+      "item.business.cumxi_copper_ingot": "CumxiCopper",
+      "block.business.cumxi_copper_block": "Block of CumxiCopper",
+      "item.business.raper": "Shake\u0027s Demise",
+      "item.minecraft.lingering_potion.effect.sex": "Outcast\u0027s bong",
+      "item.business.cumxi_copper_pickaxe": "CumxiCopper Pickaxe",
+      "item.business.business": "Music Disc",
+      "item.business.cumxi_copper_axe": "CumxiCopper Axe",
+      "advancements.bloodbusiness.title": "Bloody Business",
+      "item.business.blood": "Blood",
+      "item.nigsterious_gear.cumxi_copper_shovel": "CumxiCopper Shovel",
+      "effect.nigsterious_gear.weed": "bongin",
+      "item.minecraft.tipped_arrow.effect.sex": "Outcast\u0027s bong",
+      "item.nigsterious_gear.cumxi_copper_armor_chestplate": "CumxiCopper Chestplate",
+      "item.business.cumxi_copper_armor_helmet": "CumxiCopper Helmet",
+      "subtitles.business": "",
+      "block.nigsterious_gear.cumsteelium_block": "Block of Cumsteelium",
+      "item.nigsterious_gear.cumxi_copper_pickaxe": "CumxiCopper Pickaxe",
+      "item.nigsterious_gear.cumxi_copper_armor_boots": "CumxiCopper Boots",
+      "block.nigsterious_gear.cum": "Cum",
+      "advancements.handshaked.descr": "yo ass did the handshake with someone",
+      "item.business.superhandshaker": "Superhandshaker",
+      "item.business.cumxi_copper_shovel": "CumxiCopper Shovel",
+      "item.business.magicitem": "Magic thing",
+      "advancements.gettingdowntobusiness.descr": "Crafted a super handshaker",
+      "item.nigsterious_gear.shaker": "Handshaker",
+      "item.nigsterious_gear.cumxi_copper_axe": "CumxiCopper Axe",
+      "fluid.business.cum": "Cum",
+      "item.nigsterious_gear.bong": "Ferocious Blaster",
+      "item.nigsterious_gear.magicitem": "Magic thing",
+      "block.business.cumsteelium_block": "Block of Cumsteelium",
+      "item.business.cumxi_copper_armor_boots": "CumxiCopper Boots",
+      "effect.business.weed": "bongin",
+      "item.business.shaker": "Handshaker",
+      "item.nigsterious_gear.business.desc": "Business",
+      "item.nigsterious_gear.cumxi_copper_sword": "CumxiCopper Sword",
+      "item.nigsterious_gear.cumxi_copper_armor_helmet": "CumxiCopper Helmet",
+      "item.business.cumxi_copper_armor_leggings": "CumxiCopper Leggings",
+      "block.business.cum": "Cum",
+      "item.nigsterious_gear.business": "Music Disc",
+      "item.business.cumsteelium_ingot": "Cumsteelium",
+      "item.business.cumxi_copper_hoe": "CumxiCopper Hoe",
+      "item.business.bong": "Ferocious Blaster",
+      "item.minecraft.splash_potion.effect.sex": "Outcast\u0027s bong",
+      "advancements.handshaked.title": "Handshaked",
+      "item.nigsterious_gear.cum_bucket": "Cum Bucket",
+      "item.nigsterious_gear.cumsteelium_ingot": "Cumsteelium",
+      "advancements.gettingdowntobusiness.title": "Getting Down To Business",
+      "item.business.cum_bucket": "Cum Bucket"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Materials",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Toolweaps",
+        "children": []
+      },
+      {
+        "name": "Achievement",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "business",
+    "modName": "Business",
+    "version": "1.1.4",
+    "description": "lets get down lets get down to business",
+    "author": "ShadowPazzo",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.business",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

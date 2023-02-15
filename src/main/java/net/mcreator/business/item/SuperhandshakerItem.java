@@ -19,6 +19,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.tags.BlockTags;
@@ -26,6 +27,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.business.procedures.HandershakererRightclickedaltProcedure;
+import net.mcreator.business.procedures.CumdowntickProcedure;
 import net.mcreator.business.init.BusinessModItems;
 
 import java.util.List;
@@ -53,7 +55,7 @@ public class SuperhandshakerItem extends TieredItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {
@@ -126,5 +128,11 @@ public class SuperhandshakerItem extends TieredItem {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("Way more durable multitool that can handshake yourself for 5 durability every minute"));
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		CumdowntickProcedure.execute();
 	}
 }

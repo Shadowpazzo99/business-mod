@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "business:magicitem"
+    },
+    {
+      "item": "business:magicitem"
+    },
+    {
+      "item": "business:magicitem"
+    },
+    {
+      "item": "business:magicitem"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "business:magicitem"
+    },
+    {
+      "item": "business:magicitem"
+    },
+    {
+      "item": "business:magicitem"
+    },
+    {
+      "item": "business:magicitem"
+    }
+  ],
+  "result": {
+    "item": "business:cum_bucket",
+    "count": 1
+  }
+}

@@ -6,16 +6,20 @@
     "texture": "the_bow_in_question",
     "customModelName": "Normal",
     "name": "Ferocious Blaster",
-    "specialInfo": [],
+    "specialInfo": [
+      "Uses magic things as ammo for EXPLOSIVE results",
+      "Lower arrow range and speed but they are always shot at full speed",
+      "Can be used as melee weapon in a pinch"
+    ],
     "creativeTab": {
       "value": "COMBAT"
     },
-    "stackSize": 16,
+    "stackSize": 1,
     "ammoItem": {
       "value": "CUSTOM:Magicitem"
     },
     "shootConstantly": false,
-    "usageCount": 0,
+    "usageCount": 150,
     "actionSound": {
       "value": "entity.splash_potion.throw"
     },
@@ -23,10 +27,10 @@
     "animation": "bow",
     "enableMeleeDamage": true,
     "damageVsEntity": 5.0,
-    "bulletPower": 2.0,
-    "bulletDamage": 6.0,
-    "bulletKnockback": 4,
-    "bulletParticles": true,
+    "bulletPower": 0.8,
+    "bulletDamage": 3.9999999999999996,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
     "bulletIgnitesFire": true,
     "bulletItemTexture": {
       "value": "CUSTOM:Magicitem"

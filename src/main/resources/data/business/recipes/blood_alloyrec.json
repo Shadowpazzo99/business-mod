@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "business:blood"
+    },
+    "1": {
+      "item": "business:blood"
+    },
+    "2": {
+      "item": "business:blood"
+    },
+    "3": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "4": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "5": {
+      "item": "business:cumsteelium_ingot"
+    },
+    "6": {
+      "item": "business:blood"
+    },
+    "7": {
+      "item": "business:cum_bucket"
+    },
+    "8": {
+      "item": "business:blood"
+    }
+  },
+  "result": {
+    "item": "business:blood_alloy",
+    "count": 1
+  }
+}

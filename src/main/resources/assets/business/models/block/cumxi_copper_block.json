@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "business:blocks/cumxicopper_ore_block",
-    "particle": "business:blocks/cumxicopper_ore_block"
+    "all": "business:blocks/cumxiblock",
+    "particle": "business:blocks/cumxiblock"
   },
   "render_type": "solid"
 }

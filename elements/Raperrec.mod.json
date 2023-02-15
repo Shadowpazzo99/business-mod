@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Blood"
+      },
+      {
+        "value": "CUSTOM:BloodAlloy"
+      },
+      {
+        "value": "CUSTOM:Blood"
+      },
+      {
+        "value": "CUSTOM:Blood"
+      },
+      {
+        "value": "CUSTOM:BloodAlloy"
+      },
+      {
+        "value": "CUSTOM:Blood"
+      },
+      {
+        "value": "CUSTOM:CumsteeliumIngot"
+      },
+      {
+        "value": "CUSTOM:CumsteeliumIngot"
+      },
+      {
+        "value": "CUSTOM:CumsteeliumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Raper"
+    },
+    "name": "raperrec",
+    "namespace": "mod"
+  }
+}

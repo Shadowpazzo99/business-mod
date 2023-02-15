@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "business:blood_alloy"
+    },
+    "title": {
+      "translate": "advancements.bloodbusiness.title"
+    },
+    "description": {
+      "translate": "advancements.bloodbusiness.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bloodbusiness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "business:blood"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "business:gettingdowntobusiness"
+}

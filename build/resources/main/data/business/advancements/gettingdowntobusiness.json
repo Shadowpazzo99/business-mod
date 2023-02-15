@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "business:superhandshaker"
+    },
+    "title": {
+      "translate": "advancements.gettingdowntobusiness.title"
+    },
+    "description": {
+      "translate": "advancements.gettingdowntobusiness.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gettingdowntobusiness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "business:superhandshaker"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "business:handshaked"
+}
